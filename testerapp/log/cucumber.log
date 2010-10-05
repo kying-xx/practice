@@ -1,0 +1,29 @@
+# Logfile created on Mon Oct 04 23:54:59 -0400 2010  [4;36;1mArticle Create (0.5ms)[0m   [0;1mINSERT INTO "articles" ("created_at", "title", "updated_at", "content") VALUES('2010-10-05 04:04:52', 'Pizza', '2010-10-05 04:04:52', NULL)[0m
+  [4;35;1mArticle Create (0.2ms)[0m   [0mINSERT INTO "articles" ("created_at", "title", "updated_at", "content") VALUES('2010-10-05 04:04:52', ' Breadsticks', '2010-10-05 04:04:52', NULL)[0m
+  [4;36;1mArticle Create (0.5ms)[0m   [0;1mINSERT INTO "articles" ("created_at", "title", "updated_at", "content") VALUES('2010-10-05 04:08:30', 'Pizza', '2010-10-05 04:08:30', NULL)[0m
+  [4;35;1mArticle Create (0.1ms)[0m   [0mINSERT INTO "articles" ("created_at", "title", "updated_at", "content") VALUES('2010-10-05 04:08:30', ' Breadsticks', '2010-10-05 04:08:30', NULL)[0m
+  [4;36;1mArticle Create (0.5ms)[0m   [0;1mINSERT INTO "articles" ("created_at", "title", "updated_at", "content") VALUES('2010-10-05 04:08:40', 'Pizza', '2010-10-05 04:08:40', NULL)[0m
+  [4;35;1mArticle Create (0.1ms)[0m   [0mINSERT INTO "articles" ("created_at", "title", "updated_at", "content") VALUES('2010-10-05 04:08:40', ' Breadsticks', '2010-10-05 04:08:40', NULL)[0m
+  [4;36;1mArticle Create (0.7ms)[0m   [0;1mINSERT INTO "articles" ("created_at", "title", "updated_at", "content") VALUES('2010-10-05 04:11:21', 'Pizza', '2010-10-05 04:11:21', NULL)[0m
+  [4;35;1mArticle Create (0.1ms)[0m   [0mINSERT INTO "articles" ("created_at", "title", "updated_at", "content") VALUES('2010-10-05 04:11:21', ' Breadsticks', '2010-10-05 04:11:21', NULL)[0m
+REQUESTING PAGE: GET /articles with {} and HTTP headers {}
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-05 00:11:21) [GET]
+  [4;36;1mArticle Create (0.5ms)[0m   [0;1mINSERT INTO "articles" ("created_at", "title", "updated_at", "content") VALUES('2010-10-05 04:12:38', 'Pizza', '2010-10-05 04:12:38', NULL)[0m
+  [4;35;1mArticle Create (0.1ms)[0m   [0mINSERT INTO "articles" ("created_at", "title", "updated_at", "content") VALUES('2010-10-05 04:12:38', ' Breadsticks', '2010-10-05 04:12:38', NULL)[0m
+REQUESTING PAGE: GET /articles with {} and HTTP headers {}
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-10-05 00:12:38) [GET]
+Rendering articles/index
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://www.example.com/articles]
+  [4;36;1mArticle Create (0.6ms)[0m   [0;1mINSERT INTO "articles" ("created_at", "title", "updated_at", "content") VALUES('2010-10-05 04:16:11', 'Pizza', '2010-10-05 04:16:11', NULL)[0m
+  [4;35;1mArticle Create (0.1ms)[0m   [0mINSERT INTO "articles" ("created_at", "title", "updated_at", "content") VALUES('2010-10-05 04:16:11', ' Breadsticks', '2010-10-05 04:16:11', NULL)[0m
+REQUESTING PAGE: GET /articles with {} and HTTP headers {}
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-10-05 00:16:11) [GET]
+  [4;36;1mArticle Load (0.5ms)[0m   [0;1mSELECT * FROM "articles" [0m
+Rendering articles/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://www.example.com/articles]
